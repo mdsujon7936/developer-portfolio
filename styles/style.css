@@ -186,3 +186,27 @@ hr.new1 {
     border-top: 1px solid red;
     margin-top: 30px;
 }
+.resume-btn{
+    text-align: center;
+    margin-top: 69px;
+}
+/* .............................. */
+.contact{
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    margin-top: 113px;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    border: 0px;
+    width: 100%;
+}
+.contact a{
+    text-decoration: none;
+}
