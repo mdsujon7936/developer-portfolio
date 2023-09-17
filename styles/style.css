@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+    /* margin: 0 auto; */
     font-family: 'Open Sans', sans-serif;
 }
 .btn-primary{
@@ -121,6 +121,9 @@ nav li {
     color:#474747;
 }
 /* ,,,,,, */
+/*----------------
+     What I do
+------------------*/
 .section-title{
     font-size: 35px;
     font-weight: 700;
@@ -135,11 +138,13 @@ nav li {
     font-size: 18px;
     margin-bottom: 50px;
     width: 909px;
-  text-align: center;
+    text-align: center;
     color: var(--dark-03, #757575);
     
 }
-/* ........................................................................... */
+.more-than p{
+    margin-right: 0;
+}
 .skill-container{
     display: flex;
     gap: 24px;
@@ -223,4 +228,19 @@ hr.new1 {
 }
 .one{
     margin-right: 24px;
+}
+/* responsive style */
+@media screen and (max-width:576px) {
+    .skill-container, .adders-ok,.about-info-container,.contact{
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 20px;
+    }
+    .about, .contact{
+        padding: 20px;
+    }
+    
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    
 }
